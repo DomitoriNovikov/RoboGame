@@ -13,6 +13,7 @@ public class ObjectScript : MonoBehaviour
         if (col.tag == "Finish") {
             _laps++;
             _stop = _laps == 2;
+            _laps == 4;
         }
     }
     private void OnTriggerExit(Collider col)
